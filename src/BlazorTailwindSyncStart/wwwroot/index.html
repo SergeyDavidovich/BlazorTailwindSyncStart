@@ -5,7 +5,9 @@
     <meta charset="utf-8" />
     <title>BlazorTailwindSyncStart</title>
     <base href="/" />
+    <!--Tailwinds CDN-->
     <script src="https://cdn.tailwindcss.com"></script>
+    
     <link href="css/app.css" rel="stylesheet" />
     <link href="manifest.json" rel="manifest" />
 
@@ -21,8 +23,17 @@
         <a href="" class="reload">Reload</a>
         <a class="dismiss">🗙</a>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.8.1/alpine.js"></script>
+    <script>
+        const setup = () => {
+            return {
+                isSidebarOpen: false,
+            }
+        }
+    </script>
     <script src="_framework/blazor.webassembly.js"></script>
     <script>navigator.serviceWorker.register('service-worker.js');</script>
+
 </body>
 
 </html>

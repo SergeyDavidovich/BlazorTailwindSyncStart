@@ -1,7 +1,8 @@
 {
-  "ProjectLinks":
-  {
-    "Adding Tailwind CSS v3 to a Blazor app": "https://chrissainty.com/adding-tailwind-css-v3-to-a-blazor-app/"
+  "ProjectLinks": {
+    "Adding Tailwind CSS v3 to a Blazor app": "https://chrissainty.com/adding-tailwind-css-v3-to-a-blazor-app/",
+    "Tailwindcss-Ru": "https://tailwindcss.ru/",
+    "Tailwindcss": "https://tailwindcss.com/"
   }
 }
 
